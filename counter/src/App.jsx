@@ -1,11 +1,12 @@
-import Counter from "./component/Counter"
+//import Counter from "./component/Counter"
+import Apiiiii from "./component/Apiiiii"
 
 function App() {
 // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Counter></Counter>
+   <Apiiiii></Apiiiii>
     </>
   )
 }
