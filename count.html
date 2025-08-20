@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+</head>
+<body>
+    <h4 id="temp"></h4>
+    <button type="button" onclick="increaseBtn()">+</button>
+    <button type="button" onclick="decreaseBtn()">-</button>
+
+    <script>
+    var count=0;
+    const res = document.getElementById("temp");
+    res.innerHTML="Count value: "+count;
+
+    function increaseBtn(){
+        count=count+1;
+        res.innerHTML="Count value: "+count;
+    }
+
+    function decreaseBtn(){
+        if((count-1)<0){
+            count=0;
+        }else{
+            count=count-1;
+            res.innerHTML="Count value: "+count;
+        }
+    }
+
+    </script>
+</body>
+</html>
